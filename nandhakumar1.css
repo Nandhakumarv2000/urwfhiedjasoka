@@ -1,0 +1,229 @@
+*{
+margin: 0;
+padding: 0;
+}
+.parallax{
+animation: bganime 40s infinite linear;
+}
+h1{
+margin-top: 0;
+padding-top: 20%;
+padding-bottom: 20%;
+text-align: center;
+font-family: "sofia";
+letter-spacing: 8px;
+font-size: 80px;
+color: #ffffff;
+animation: tanime 3s linear;
+}
+.second{
+margin:0;
+padding-top: 10%;
+padding-bottom: 10%;
+background-color: rgba(236,236,236,1);
+color: #00ff00;
+text-align: justify;
+font-size: 30px;
+color: #000000;
+font-family: 'Lily Script One';
+}
+.second p{
+	text-align: justify;
+	padding: 0 50px 0 50px;
+}
+.second h2{
+	text-align: center;
+	font-size: 40px;
+	color: #000000;
+	font-family: 'Berkshire Swash';
+}
+.third{
+margin: 0;
+padding-top: 5%;
+padding-bottom: 30%;
+color: #000000;
+background-color: rgba(236,236,236,1);
+text-align: center;
+}
+.third h3{
+	text-align: center;
+	font-size: 50px;
+}
+.third p{
+	font-size: 30px;
+	text-align: justify;
+	padding: 0 50px 0 50px;
+}
+.head4,.head5{
+	font-size: 35px;
+	font-family: 'Maiden Orange';
+    }
+.points{
+	font-size: 20px;
+	font-family: 'Lily Script One';
+}
+i{
+	font-size: 30px;
+}
+.four{
+	margin: 0;
+	padding: 20% 0 20% 20%;
+	background-color: rgba(0,0,0,0.5);
+	color: #ffffff;
+}
+@media screen and (max-width: 768px){
+h1{
+padding-top: 60%;
+padding-bottom: 60%;
+letter-spacing: 2px;
+font-size: 30px;
+animation: sanime 3s linear;
+}
+.second{
+padding: 20% 0;
+}
+.second p{
+	font-size: 18px;
+	padding: 0 25px 0 25px;
+}
+.second h2{
+	font-size: 25px
+}}
+@keyframes tanime{
+0%{
+letter-spacing: 24px;
+font-size: 100px;
+}
+50%{
+letter-spacing: 16px;
+font-size: 80px;
+}
+100%{
+letter-spacing: 8px;
+}
+}
+@keyframes sanime{
+0%{
+letter-spacing: 4px;
+font-size: 40px;
+}
+50%{
+letter-spacing: 3px;
+font-size: 35px;
+}
+100%{
+letter-spacing: 2px;
+}
+}
+@keyframes bganime{
+0%{
+background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1601/maxkabakov160102444/50954418-programming-concept-text-html-on-black-chalkboard-background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+19.99%{
+background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1601/maxkabakov160102444/50954418-programming-concept-text-html-on-black-chalkboard-background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+20%{
+background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1601/maxkabakov160101985/50847539-software-concept-glowing-text-css-in-grunge-dark-room-with-wooden-floor-black-background-with-binary.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+39.99%{
+background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1601/maxkabakov160101985/50847539-software-concept-glowing-text-css-in-grunge-dark-room-with-wooden-floor-black-background-with-binary.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+40%{
+background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1703/maxkabakov170301020/73143736-programming-concept-glowing-text-mysql-hand-drawn-programming-icons-in-grunge-dark-room-with-dirty-f.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+59.99%{
+background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1703/maxkabakov170301020/73143736-programming-concept-glowing-text-mysql-hand-drawn-programming-icons-in-grunge-dark-room-with-dirty-f.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+60%{
+background-image: url("https://previews.123rf.com/images/wavebreakmediamicro/wavebreakmediamicro1403/wavebreakmediamicro140301384/26800461-the-word-php-against-futuristic-black-and-blue-background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+79.99%{
+background-image: url("https://previews.123rf.com/images/wavebreakmediamicro/wavebreakmediamicro1403/wavebreakmediamicro140301385/26800462-the-word-javascript-against-futuristic-black-and-blue-background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+80%{
+background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1703/maxkabakov170301020/73143736-programming-concept-glowing-text-mysql-hand-drawn-programming-icons-in-grunge-dark-room-with-dirty-f.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+99.99%{
+background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1703/maxkabakov170301020/73143736-programming-concept-glowing-text-mysql-hand-drawn-programming-icons-in-grunge-dark-room-with-dirty-f.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+100%{
+background-image: url("https://previews.123rf.com/images/maxkabakov/maxkabakov1601/maxkabakov160102444/50954418-programming-concept-text-html-on-black-chalkboard-background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow-x: hidden;
+overflow-y: scroll;
+}
+}
